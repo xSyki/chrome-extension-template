@@ -1,8 +1,6 @@
 # react-webpack-template
 
-Simple starter for react application.
-
-Inspired by: https://github.com/gopinav/React-TypeScript-Webpack-Starter
+Simple starter for chrome extensions.
 
 ## Template Contains:
 
@@ -15,12 +13,10 @@ Inspired by: https://github.com/gopinav/React-TypeScript-Webpack-Starter
 - Jest
 - Scss Modules
 
-App created with it: https://github.com/xSyki/alcohol-atlas
-
 ## To install:
 
 ```bash
-npx degit github:xSyki/react-webpack-template my-app
+npx degit github:xSyki/chrome-extension-template my-extension
 cd my-app
 npm i
 ```
@@ -30,6 +26,15 @@ npm i
 ```bash
 npm start
 ```
+
+## Better way to use in dev is:
+
+```bash
+npm run build-dev
+```
+
+## To add this extension to chrome:
+Go to extensions, turn on developer mode and load upacked file(build).
 
 ## Other scripts
 
