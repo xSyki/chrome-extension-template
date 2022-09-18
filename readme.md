@@ -41,6 +41,7 @@ This template should:
 - Change every image to my logo
 - Change Syki to xSyki 😎
 - On new page click context menu and it should console log message
+- On popup in the right corner you should see simple couter
 
 ## Other scripts
 
