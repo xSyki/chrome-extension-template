@@ -36,6 +36,12 @@ npm run build-dev
 ## To add this extension to chrome:
 Go to extensions, turn on developer mode and load upacked file(build).
 
+## To check is everything okay:
+This template should:
+- Change every image to my logo
+- Change Syki to xSyki 😎
+- On new page click context menu and it should console log message
+
 ## Other scripts
 
 ### Tests:
