@@ -1,6 +1,6 @@
-import style from './app.module.scss'
-
 import Counter from './Counter/Counter'
+
+import style from './app.module.scss'
 
 function App() {
   return (

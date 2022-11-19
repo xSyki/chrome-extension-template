@@ -9,6 +9,7 @@ module.exports = {
       version: 'detect',
     },
   },
+  plugins: ['@typescript-eslint', 'react', 'simple-import-sort', 'prettier'],
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
@@ -28,5 +29,18 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'simple-import-sort/imports': [
+      'error',
+      {
+        groups: [
+          ['^react', '^@?\\w'],
+          ['^(@|components)(/.*|$)'],
+          ['^\\u0000'],
+          ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
+          ['^.+\\.?(styles)$', '^.+\\.?(css)$', '^.+\\.?(scss)$'],
+        ],
+      },
+    ],
   },
 }

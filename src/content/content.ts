@@ -1,11 +1,11 @@
 const elms = document.getElementsByTagName('*')
 
 for (let i = 0; i < elms.length; i++) {
-  const myChildred = elms[i].childNodes
-  for (let j = 0; j < myChildred.length; j++) {
-    if (myChildred[j].nodeType === 3) {
-      myChildred[j].nodeValue =
-        myChildred[j]?.nodeValue?.replace(/Syki/i, 'Syki 😎') || null
+  const myChildren = elms[i].childNodes
+  for (let j = 0; j < myChildren.length; j++) {
+    if (myChildren[j].nodeType === 3) {
+      myChildren[j].nodeValue =
+        myChildren[j]?.nodeValue?.replace(/Syki/i, 'Syki 😎') || null
     }
   }
 }
