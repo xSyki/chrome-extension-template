@@ -5,7 +5,7 @@ function Counter() {
 
   return (
     <div>
-      <div style={{ color: 'white' }}>Current value: {counterValue}</div>
+      <div className="text-red-500">Current value: {counterValue}</div>
       <button
         onClick={() => setCounterValue((counterValue) => counterValue + 1)}
       >
